@@ -1,0 +1,40 @@
+.jumbotron-fluid{
+  height: 630px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/maintenance2.png");
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+
+.display-3 {
+margin-top: 150px;
+text-align: center;
+}
+
+.bouttons-main {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.display-3-titre {
+  text-align: center;
+margin-bottom: 50px;
+}
+
+.display-3-titre-2 {
+  margin-top: 50px;
+  text-align: center  ;
+}
+
+.card-footer {
+  text-align: center;
+}
+
+.espace {
+  height: 35px;
+}
