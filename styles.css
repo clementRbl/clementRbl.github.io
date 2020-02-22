@@ -42,14 +42,14 @@ margin-bottom: 50px;
 a:hover { color: rgb(9, 161, 244) !important; }
 
 .ml12 {
-  font-weight: 200;
+  font-weight: 350;
   font-size: 1.8em;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
 }
 
 .ml12 .letter {
-  font-weight: 400;
+  font-weight: 300;
   display: inline-block;
   line-height: 1em;
 }
