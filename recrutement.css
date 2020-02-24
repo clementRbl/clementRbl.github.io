@@ -75,17 +75,16 @@ textarea{
 a:hover { color: rgb(9, 161, 244) !important; }
 
 .ml12 {
-	
+  
   font-weight: 200;
   font-size: 1.8em;
-  text-transform: uppercase;
+  text-transform: unset;
   letter-spacing: 0.1em;
 }
 
 .ml12 .letter {
-
-	font-weight: 300;
-	font-weight: bold;
+  
+  font-weight: 300;
   display: inline-block;
   line-height: 1em;
 }
