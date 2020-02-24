@@ -76,7 +76,7 @@ textarea{
 a:hover { color: rgb(9, 161, 244) !important; }
 
 .ml12 {
-  
+  text-align: center;
   font-weight: 200;
   font-size: 1.8em;
   text-transform: unset;
