@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <link rel="stylesheet" href="recrutement.js">
+  
   <link rel="stylesheet" href="recrutement.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
@@ -43,11 +43,11 @@
 							</div>
 						</div>
 						<form action="https://smartforms.dev/submit/5e512d5f68fe962e7a9d2dc9" method="POST" UTF-8 enctype="multipart/form-data">
-						<div class="row">
+							<div class="row">
 							<div class="col-sm-6">
 								<div class="inputBox ">
 									<div class="#"></div>
-									<input type="text" name="Prénom" class="input text-primary" placeholder="Prénom">
+									<input type="text" name="Prénom" required class="input text-primary" placeholder="Prénom">
 								</div>
 							</div>
 
@@ -63,7 +63,7 @@
 							<div class="col-sm-6">
 								<div class="inputBox">
 									
-									<input type="text" name="Email" class="input text-primary" placeholder="Email">
+									<input type="text" name="Email"  class="input text-primary" placeholder="Email">
 								</div>
 							</div>
 
@@ -78,13 +78,13 @@
 						
               <div class="form-group text-secondary">
                 <label for="exampleFormControlFile1">Votre CV</label>
-                <input type="file" name="CV"  class="form-control-file text-secondary" id="exampleFormControlFile1">
+                <input type="file" name="CV" required class="form-control-file text-secondary" id="exampleFormControlFile1">
               </div>
             
 
 						<div class="form-group">
               <label for="exampleFormControlTextarea1">Votre message</label>
-              <textarea class="form-control" name="Demande" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <textarea class="form-control" name="Demande" required id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
 
 						<div class="row">
