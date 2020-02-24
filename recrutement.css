@@ -8,6 +8,7 @@ body{
 	padding: 50px;
 }
 .formBox  h1{
+	width: auto;
 	margin: 0;
 	padding: 0;
 	text-align: center;
