@@ -2,7 +2,7 @@
 var textWrapper = document.querySelector('.ml12');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: true})
+//anime.timeline({loop: true})
   .add({
     targets: '.ml12 .letter',
     translateX: [40,0],
