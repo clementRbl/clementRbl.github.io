@@ -68,7 +68,7 @@ textarea{
 .map-responsive {
 	overflow:hidden;
 	padding-bottom:56.25%;
-	position:relative;>
+	position:relative;
 	height:0;
 	}
 	
@@ -88,6 +88,16 @@ textarea{
 .adresse p {
 	margin-bottom: 0px;
 }
-a:hover { color: rgb(9, 161, 244) !important; }
+a:hover { 
+	color: rgb(9, 161, 244) !important;
+}
 
+footer {
+  background-color: gray;
+  color: white;
+}
+
+.card-footer {
+  text-align: center;
+}
 

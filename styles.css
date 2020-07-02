@@ -40,9 +40,6 @@ margin-bottom: 50px;
   height: 35px;
 }
 
-a:hover { color: rgb(9, 161, 244) !important;
-
-}
 
 
 img:hover {
@@ -50,4 +47,9 @@ opacity:0.7;
 -moz-transition: opacity 0.7s;
 -webkit-transition: opacity 0.7s;
 -o-transition: opacity 0.7s;
+}
+
+footer {
+  background-color: gray;
+  color: white;
 }
