@@ -20,7 +20,9 @@ text-align: center;
   display: flex;
   justify-content: center;
   margin-top: 60px;
+  
 }
+
 
 .display-3-titre {
 text-align: center;
@@ -52,4 +54,23 @@ opacity:0.7;
 footer {
   background-color: gray;
   color: white;
+}
+.fb-ic, .ins-ic {
+  color: white;
+  text-decoration: none;
+  transition: color 1s, font-size 1s;
+}
+.fb-ic:hover, .ins-ic:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-link {
+  transition: font-size 1s;
+}
+
+.nav-link:hover {
+  font-size: 17px;
+  font-weight: bold;
 }

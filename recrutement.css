@@ -88,9 +88,9 @@ textarea{
 .adresse p {
 	margin-bottom: 0px;
 }
-a:hover { 
+/* a:hover { 
 	color: rgb(9, 161, 244) !important;
-}
+} */
 
 footer {
   background-color: gray;
@@ -99,5 +99,25 @@ footer {
 
 .card-footer {
   text-align: center;
+}
+
+.nav-link {
+  transition: font-size 1s;
+}
+
+.nav-link:hover {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.fb-ic, .ins-ic {
+  color: white;
+  text-decoration: none;
+  transition: color 1s, font-size 1s;
+}
+.fb-ic:hover, .ins-ic:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
 }
 
